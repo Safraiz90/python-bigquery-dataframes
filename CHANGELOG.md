@@ -4,6 +4,25 @@
 
 [1]: https://pypi.org/project/bigframes/#history
 
+## [1.6.0](https://github.com/googleapis/python-bigquery-dataframes/compare/v1.5.0...v1.6.0) (2024-05-08)
+
+
+### Features
+
+* Add `strategy="quantile"` in KBinsDiscretizer ([#654](https://github.com/googleapis/python-bigquery-dataframes/issues/654)) ([c6c487f](https://github.com/googleapis/python-bigquery-dataframes/commit/c6c487fb3e39a980a05ff2dab5fb2b528d44016a))
+* Warn with a more specific `DefaultLocationWarning` category when no location can be detected ([#648](https://github.com/googleapis/python-bigquery-dataframes/issues/648)) ([e084e54](https://github.com/googleapis/python-bigquery-dataframes/commit/e084e54557addff78522bbd710637ecb4b46d23e))
+
+
+### Bug Fixes
+
+* Include `index_col` when selecting `columns` and `filters` in `read_gbq_table` ([#648](https://github.com/googleapis/python-bigquery-dataframes/issues/648)) ([e084e54](https://github.com/googleapis/python-bigquery-dataframes/commit/e084e54557addff78522bbd710637ecb4b46d23e))
+
+
+### Documentation
+
+* Address lint errors in code samples ([#665](https://github.com/googleapis/python-bigquery-dataframes/issues/665)) ([4fc8964](https://github.com/googleapis/python-bigquery-dataframes/commit/4fc89644e47a6da9367b54826b25c6abbe97327b))
+* Document inlining of small data in `read_*` APIs ([#670](https://github.com/googleapis/python-bigquery-dataframes/issues/670)) ([306953a](https://github.com/googleapis/python-bigquery-dataframes/commit/306953aaae69e57c7c2f5eefb88d55a35bdcca9d))
+
 ## [1.5.0](https://github.com/googleapis/python-bigquery-dataframes/compare/v1.4.0...v1.5.0) (2024-05-07)
 
 
